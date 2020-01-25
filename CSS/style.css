@@ -63,3 +63,39 @@ body {
 .box ul li a:hover {
   color: rgb(231, 181, 147);
 }
+
+.form .container {
+  display: inline-block;
+  padding: 15px;
+  /* border: 3px solid; */
+  overflow: hidden;
+}
+.email {
+  display: inline-block;
+  padding: 6px;
+  overflow: hidden;
+}
+
+.form input[type="email"] {
+  padding: 4px;
+  height: 35px;
+  width: 200px;
+  border-radius: 7px;
+}
+.form button {
+  height: 35px;
+  width: 80px;
+  background: rgb(240, 142, 76);
+  border-radius: 5px;
+  color: black;
+  font-size: 15px;
+  margin-top: 3px;
+}
+
+.form textarea {
+  width: 280px;
+  border-radius: 7px;
+  border: rgb(240, 142, 76);
+  text-align: justify;
+  padding: 4px;
+}
