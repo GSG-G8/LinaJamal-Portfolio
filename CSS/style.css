@@ -69,6 +69,7 @@ body {
   padding: 15px;
   /* border: 3px solid; */
   overflow: hidden;
+  width: 100%;
 }
 .email {
   display: inline-block;
@@ -79,23 +80,37 @@ body {
 .form input[type="email"] {
   padding: 4px;
   height: 35px;
-  width: 200px;
+  /* width: 200px; */
+  width: 70%;
   border-radius: 7px;
 }
 .form button {
   height: 35px;
-  width: 80px;
+  /* width: 80px; */
+  width: 25%;
   background: rgb(240, 142, 76);
   border-radius: 5px;
   color: black;
   font-size: 15px;
   margin-top: 3px;
+  cursor: pointer;
 }
 
 .form textarea {
-  width: 280px;
+  font: 400 13.3333px Arial;
+  /* width: 280px; */
+  width: 95%;
   border-radius: 7px;
   border: rgb(240, 142, 76);
   text-align: justify;
-  padding: 4px;
+  padding: 10px;
+}
+.mainFooter {
+  padding: 20px;
+  /* margin-top: 20px; */
+  text-align: center;
+}
+
+.mainFooter p {
+  color: #eee;
 }
