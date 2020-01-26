@@ -60,7 +60,9 @@ body {
   cursor: pointer;
   transition: all ease-in 200ms;
 }
-.box ul li a:hover {
+
+.box ul li:hover i {
+  transform: scale(1.3);
   color: rgb(231, 181, 147);
 }
 
@@ -79,7 +81,7 @@ body {
 
 .form input[type="email"] {
   padding: 4px;
-  height: 35px;
+  height: 38px;
   /* width: 200px; */
   width: 70%;
   border-radius: 7px;
