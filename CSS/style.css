@@ -11,18 +11,6 @@ body {
   padding: 0;
   /* background-position: center; */
 }
-/* .container {
-  height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-} */
-/* .containe {
-   height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-} */
 @keyframes scaleImg {
   0% {
     transform: scale(1);
